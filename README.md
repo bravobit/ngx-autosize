@@ -38,18 +38,25 @@ $ yarn add @bravobit/ngx-autosize
 Add the `NgxAutosizeModule` to your imports array in your `AppModule`.
 
 ```typescript
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 import {NgxAutosizeModule} from '@bravobit/ngx-autosize';
 
+import {AppComponent} from './app.component';
+
 @NgModule({
-    imports: [NgxAutosizeModule]
+    imports: [BrowserModule, NgxAutosizeModule],
+    declarations: [AppComponent],
+    bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule {
+}
 ```
 
 ## Example
 
 ```typescript
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 
 @Component({
     selector: 'app-root',
@@ -58,7 +65,9 @@ import {Component, OnInit} from '@angular/core';
                   minHeight="100px"
                   maxHeight="500px">Woop die floop</textarea>
     `,
-    styles: ['textarea { resize: none; }']
+    styles: ['textarea { resize: none; }'],
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class AppComponent {}
+export class AppComponent {
+}
 ```
