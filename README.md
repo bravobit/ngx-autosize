@@ -50,7 +50,6 @@ export class AppModule {}
 
 ```typescript
 import {Component, OnInit} from '@angular/core';
-import {StorageService} from '@bravobit/ngx-autosize';
 
 @Component({
     selector: 'app-root',
@@ -61,6 +60,5 @@ import {StorageService} from '@bravobit/ngx-autosize';
     `,
     styles: ['textarea { resize: none; }']
 })
-export class AppComponent {
-}
+export class AppComponent {}
 ```
