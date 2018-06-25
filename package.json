@@ -5,9 +5,7 @@
         "ng": "ng",
         "start": "ng serve",
         "build": "ng build",
-        "build:library": "ng build --prod ngx-autosize",
-        "prepublish": "npm run build:library",
-        "deploy": "npm publish dist/ngx-autosize"
+        "build:library": "ng build --prod ngx-autosize"
     },
     "private": true,
     "dependencies": {
