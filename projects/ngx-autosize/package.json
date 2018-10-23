@@ -1,6 +1,6 @@
 {
     "name": "@bravobit/ngx-autosize",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "description": "A simple library that autosizes your textareas.",
     "author": {
@@ -18,7 +18,7 @@
     },
     "homepage": "https://github.com/bravobit/ngx-autosize#readme",
     "peerDependencies": {
-        "@angular/common": "^6.0.0",
-        "@angular/core": "^6.0.0"
+        "@angular/common": "^7.0.0",
+        "@angular/core": "^7.0.0"
     }
 }
