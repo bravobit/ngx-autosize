@@ -5,7 +5,7 @@
 [![npm version](https://badge.fury.io/js/%40bravobit%2Fngx-autosize.svg)](https://www.npmjs.com/package/@bravobit/ngx-autosize)
 [![npm license](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-- Use <kbd>command</kbd> + <kbd>F</kbd> or <kbd>ctrl</kbd> + <kbd>F</kbd> to search for a keyword.
+- Use <kbd>⌘ Command</kbd> + <kbd>F</kbd> or <kbd>ctrl</kbd> + <kbd>F</kbd> to search for a keyword.
 - Contributions welcome, please see [contribution guide](.github/CONTRIBUTING.md).
 
 ## Features
